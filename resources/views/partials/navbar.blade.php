@@ -1,5 +1,5 @@
 <div class="navbar-main">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-info">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-success">
         <a class="navbar-brand" href="/">Hasbi</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -19,7 +19,6 @@
               <a class="nav-link {{ ($title === "Biodata") ? 'active' : '' }}" href="/biodata">Biodata</a>
             </li>
           </ul>
-          <img src="/img/logo.png" id="logo" class="float-right" alt="..." style="width: 200px">
         </div>
       </nav>
 </div>
