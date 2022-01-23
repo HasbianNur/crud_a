@@ -40,5 +40,5 @@ Route::get('/posts/{slug}', [PostController::class, 'show']);
 Route::get('/biodata', [BiodataController::class, 'index']);
 Route::get('/biodata/{slug2}', [BiodataController::class, 'show']);
 
-Route::get('/gallery', [GalleryController::class, 'index']);
-Route::get('/gallery/{slug3}', [GalleryController::class, 'show']);
+Route::get('/galeri', [GalleryController::class, 'index']);
+Route::get('/galeri/{slug3}', [GalleryController::class, 'show']);

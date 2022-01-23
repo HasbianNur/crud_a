@@ -6,14 +6,18 @@ class Galeri
 {
     private static $blog_galeri = [
         [
-            "title" => "Gallery",
-            "slug3" => "gallery",
-            "nama" => "Hasbian Nur",
-            "nis" => "6275",
-            "jurusan" => "Rekayasa Perangkat Lunak",
-            "kelas" => "XI-RPL",
-            "sekolah" => "SMK AIRLANGGA BALIKPAPAN",
-            "gambar" => "/img/hasbi.jpeg"
+            "gambar1" => "/img/gambar1.jpg",
+            "gambar2" => "/img/gambar2.jpg",
+            "gambar3" => "/img/gambar3.jpg",
+            "gambar4" => "/img/gambar4.jpg",
+            "gambar5" => "/img/gambar5.jpg",
+            "gambar6" => "/img/gambar6.jpg",
+            "gambar7" => "/img/gambar7.jpg",
+            "gambar8" => "/img/gambar8.jpg",
+            "gambar9" => "/img/gambar9.jpg",
+            "gambar10" => "/img/gambar10.jpg",
+            "gambar11" => "/img/gambar11.jpg",
+            "gambar12" => "/img/gambar12.jpg",
         ],
     ];
 
