@@ -4,6 +4,7 @@
     @foreach ($biodata as $profil)
     <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="profil">
         <div class="wrap">
+            <h1>{{ $profil["title"] }}</h1>
             <table>
                 <tr>
                     <td rowspan="8" width="100px"> <img src="{{ $profil["gambar"] }}" alt="{{ $profil["nama"] }}" width="200px" style="display: block;border-radius: 5%;border-color:white;margin-right:30px" border="2px" ></td>

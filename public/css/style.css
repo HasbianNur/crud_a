@@ -1,7 +1,15 @@
 body {
     background-image: url(../img/pattern.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 #logo {
     width: 200px;
+}
+
+h1 {
+    color: black;
+    text-shadow: 3px 3px white;
 }
