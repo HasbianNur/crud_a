@@ -27,10 +27,7 @@ Route::get('/', function () {
 
 Route::get('/about', function () {
     return view('about', [
-        "title" => "About",
-        "nama" => "Hasbian Nur",
-        "email" => "kitaraja600@gmail.com",
-        "image" => "hasbi.jpeg"
+        "title" => "About"
     ]);
 });
 
@@ -42,3 +39,9 @@ Route::get('/biodata/{slug2}', [BiodataController::class, 'show']);
 
 Route::get('/galeri', [GalleryController::class, 'index']);
 Route::get('/galeri/{slug3}', [GalleryController::class, 'show']);
+
+Route::get('/siswa', function () {
+    return view('siswa', [
+        "title" => "Data Siswa"
+    ]);
+});

@@ -21,6 +21,9 @@
             <li class="nav-item">
               <a class="nav-link {{ ($title === "Galeri") ? 'active' : '' }}" href="/galeri">Galeri</a>
             </li>
+            <li class="nav-item">
+              <a class="nav-link {{ ($title === "Data Siswa") ? 'active' : '' }}" href="/siswa">Data Siswa</a>
+            </li>
           </ul>
         </div>
       </nav>
