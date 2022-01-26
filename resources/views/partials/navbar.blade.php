@@ -1,5 +1,5 @@
 <div class="navbar-main">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-info">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
         <a class="navbar-brand" href="/">Hasbi</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -18,9 +18,9 @@
             <li class="nav-item">
               <a class="nav-link {{ ($title === "Biodata") ? 'active' : '' }}" href="/biodata">Biodata</a>
             </li>
-            <li class="nav-item">
+            {{-- <li class="nav-item">
               <a class="nav-link {{ ($title === "Galeri") ? 'active' : '' }}" href="/galeri">Galeri</a>
-            </li>
+            </li> --}}
             <li class="nav-item">
               <a class="nav-link {{ ($title === "Data Siswa") ? 'active' : '' }}" href="/siswa">Data Siswa</a>
             </li>

@@ -2,11 +2,11 @@
 
 use App\Http\Controllers\PostController;
 use App\Http\Controllers\BiodataController;
-use App\Http\Controllers\GalleryController;
+// use App\Http\Controllers\GalleryController;
 use Illuminate\Support\Facades\Route;
 use App\Models\Post;
 use App\Models\Biodata;
-use App\Models\Galeri;
+// use App\Models\Galeri;
 
 /*
 |--------------------------------------------------------------------------
@@ -37,8 +37,8 @@ Route::get('/posts/{slug}', [PostController::class, 'show']);
 Route::get('/biodata', [BiodataController::class, 'index']);
 Route::get('/biodata/{slug2}', [BiodataController::class, 'show']);
 
-Route::get('/galeri', [GalleryController::class, 'index']);
-Route::get('/galeri/{slug3}', [GalleryController::class, 'show']);
+// Route::get('/galeri', [GalleryController::class, 'index']);
+// Route::get('/galeri/{slug3}', [GalleryController::class, 'show']);
 
 Route::get('/siswa', function () {
     return view('siswa', [

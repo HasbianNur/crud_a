@@ -8,5 +8,5 @@
         <p>{{ $post["body"] }}</p>
     </article>
 
-    <a href="/posts" class="btn btn-success btn-lg active" role="button" aria-pressed="true">Kembali</a>
+    <a href="/posts" class="btn btn-info btn-lg active" role="button" aria-pressed="true">Kembali</a>
 @endsection
